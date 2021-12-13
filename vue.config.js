@@ -29,8 +29,9 @@ module.exports = {
 	pluginOptions: {
 		electronBuilder: {
 			nodeIntegration: true,
+			mainProcessFile: 'electron/background.js',
 			mainProcessWatch: [
-				'src/electron/**'
+				'electron/**'
 			],
 		}
 	}

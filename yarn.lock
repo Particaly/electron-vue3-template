@@ -14,38 +14,20 @@
   dependencies:
     "@ctrl/tinycolor" "^3.3.1"
 
-"@ant-design/colors@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.npm.taobao.org/@ant-design/colors/download/@ant-design/colors-6.0.0.tgz#9b9366257cffcc47db42b9d0203bb592c13c0298"
-  integrity sha1-m5NmJXz/zEfbQrnQIDu1ksE8Apg=
-  dependencies:
-    "@ctrl/tinycolor" "^3.4.0"
-
-"@ant-design/icons-svg@^4.0.0", "@ant-design/icons-svg@^4.2.1":
+"@ant-design/icons-svg@^4.0.0":
   version "4.2.1"
   resolved "https://registry.npmmirror.com/@ant-design/icons-svg/download/@ant-design/icons-svg-4.2.1.tgz#8630da8eb4471a4aabdaed7d1ff6a97dcb2cf05a"
   integrity sha1-hjDajrRHGkqr2u19H/apfcss8Fo=
 
-"@ant-design/icons-vue@^6.0.0":
+"@ant-design/icons-vue@^6.0.0", "@ant-design/icons-vue@^6.0.1":
   version "6.0.1"
-  resolved "https://registry.nlark.com/@ant-design/icons-vue/download/@ant-design/icons-vue-6.0.1.tgz#9d804c3c74d2cfaf97cb18e582d3b9400934f5fd"
-  integrity sha1-nYBMPHTSz6+XyxjlgtO5QAk09f0=
+  resolved "https://registry.npmjs.org/@ant-design/icons-vue/-/icons-vue-6.0.1.tgz#9d804c3c74d2cfaf97cb18e582d3b9400934f5fd"
+  integrity sha512-HigIgEVV6bbcrz2A92/qDzi/aKWB5EC6b6E1mxMB6aQA7ksiKY+gi4U94TpqyEIIhR23uaDrjufJ+xCZQ+vx6Q==
   dependencies:
     "@ant-design/colors" "^5.0.0"
     "@ant-design/icons-svg" "^4.0.0"
     "@types/lodash" "^4.14.165"
     lodash "^4.17.15"
-
-"@ant-design/icons@^4.6.4":
-  version "4.7.0"
-  resolved "https://registry.npmmirror.com/@ant-design/icons/download/@ant-design/icons-4.7.0.tgz?cache=0&sync_timestamp=1632478665145&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Ficons%2Fdownload%2F%40ant-design%2Ficons-4.7.0.tgz#8c3cbe0a556ba92af5dc7d1e70c0b25b5179af0f"
-  integrity sha1-jDy+ClVrqSr13H0ecMCyW1F5rw8=
-  dependencies:
-    "@ant-design/colors" "^6.0.0"
-    "@ant-design/icons-svg" "^4.2.1"
-    "@babel/runtime" "^7.11.2"
-    classnames "^2.2.6"
-    rc-util "^5.9.4"
 
 "@babel/code-frame@^7.0.0":
   version "7.15.8"
@@ -73,14 +55,14 @@
   resolved "https://registry.npmmirror.com/@babel/parser/download/@babel/parser-7.15.8.tgz?cache=0&sync_timestamp=1633553767489&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fparser%2Fdownload%2F%40babel%2Fparser-7.15.8.tgz#7bacdcbe71bdc3ff936d510c15dcea7cf0b99016"
   integrity sha1-e6zcvnG9w/+TbVEMFdzqfPC5kBY=
 
-"@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5":
+"@babel/runtime@^7.10.5":
   version "7.15.4"
   resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.15.4.tgz?cache=0&sync_timestamp=1630618785994&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha1-/RfRa/34eObdAtGXU6OfqKjZyEo=
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@ctrl/tinycolor@^3.3.1", "@ctrl/tinycolor@^3.4.0":
+"@ctrl/tinycolor@^3.3.1":
   version "3.4.0"
   resolved "https://registry.nlark.com/@ctrl/tinycolor/download/@ctrl/tinycolor-3.4.0.tgz#c3c5ae543c897caa9c2a68630bed355be5f9990f"
   integrity sha1-w8WuVDyJfKqcKmhjC+01W+X5mQ8=
@@ -93,10 +75,10 @@
     ajv "^6.12.0"
     ajv-keywords "^3.4.1"
 
-"@electron/get@^1.0.1":
-  version "1.13.0"
-  resolved "https://registry.nlark.com/@electron/get/download/@electron/get-1.13.0.tgz#95c6bcaff4f9a505ea46792424f451efea89228c"
-  integrity sha1-lca8r/T5pQXqRnkkJPRR7+qJIow=
+"@electron/get@^1.13.0":
+  version "1.13.1"
+  resolved "https://registry.npmjs.org/@electron/get/-/get-1.13.1.tgz#42a0aa62fd1189638bd966e23effaebb16108368"
+  integrity sha512-U5vkXDZ9DwXtkPqlB45tfYnnYBN8PePp1z/XDCupnSpdrxT8/ThCv9WCwPLf9oqiSGZTkH6dx2jDUPuoXpjkcA==
   dependencies:
     debug "^4.1.1"
     env-paths "^2.2.0"
@@ -106,7 +88,7 @@
     semver "^6.2.0"
     sumchecker "^3.0.1"
   optionalDependencies:
-    global-agent "^2.0.2"
+    global-agent "^3.0.0"
     global-tunnel-ng "^2.7.1"
 
 "@electron/universal@1.0.5":
@@ -1888,11 +1870,6 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.6:
-  version "2.3.1"
-  resolved "https://registry.npm.taobao.org/classnames/download/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
-  integrity sha1-38+jiR4wbsHa0QXQ6I9EF7hTXo4=
-
 clean-css@4.2.x:
   version "4.2.4"
   resolved "https://registry.npmmirror.com/clean-css/download/clean-css-4.2.4.tgz?cache=0&sync_timestamp=1634811616098&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fclean-css%2Fdownload%2Fclean-css-4.2.4.tgz#733bf46eba4e607c6891ea57c24a989356831178"
@@ -2259,7 +2236,7 @@ copy-webpack-plugin@^5.1.1:
     serialize-javascript "^4.0.0"
     webpack-log "^2.0.0"
 
-core-js@^3.15.1, core-js@^3.6.5:
+core-js@^3.15.1:
   version "3.18.3"
   resolved "https://registry.npmmirror.com/core-js/download/core-js-3.18.3.tgz?cache=0&sync_timestamp=1634062619940&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcore-js%2Fdownload%2Fcore-js-3.18.3.tgz#86a0bba2d8ec3df860fefcc07a8d119779f01509"
   integrity sha1-hqC7otjsPfhg/vzAeo0Rl3nwFQk=
@@ -2997,12 +2974,12 @@ electron-to-chromium@^1.3.867:
   resolved "https://registry.npmmirror.com/electron-to-chromium/download/electron-to-chromium-1.3.876.tgz?cache=0&sync_timestamp=1634811996482&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.876.tgz#fe6f65c9740406f4aa69f10faa8e1d79b81bdf34"
   integrity sha1-/m9lyXQEBvSqafEPqo4debgb3zQ=
 
-electron@^13.0.0:
-  version "13.6.0"
-  resolved "https://registry.npmmirror.com/electron/download/electron-13.6.0.tgz?cache=0&sync_timestamp=1634791862907&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Felectron%2Fdownload%2Felectron-13.6.0.tgz#c61e516f7a087dec711c6fddd945a808cfa115d8"
-  integrity sha1-xh5Rb3oIfexxHG/d2UWoCM+hFdg=
+electron@^16.0.4:
+  version "16.0.4"
+  resolved "https://registry.npmjs.org/electron/-/electron-16.0.4.tgz#87dfe21d17608537fc6df292c437362297566a73"
+  integrity sha512-IptwmowvMP1SFOmZLh6rrURwfnOxbDBXBRBcaOdfBM5I+B9mgtdNwzNC3ymFFNzEkZUwdOyg9fu3iyjAAQIQgw==
   dependencies:
-    "@electron/get" "^1.0.1"
+    "@electron/get" "^1.13.0"
     "@types/node" "^14.6.2"
     extract-zip "^1.0.3"
 
@@ -3739,13 +3716,12 @@ glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-global-agent@^2.0.2:
-  version "2.2.0"
-  resolved "https://registry.nlark.com/global-agent/download/global-agent-2.2.0.tgz#566331b0646e6bf79429a16877685c4a1fbf76dc"
-  integrity sha1-VmMxsGRua/eUKaFod2hcSh+/dtw=
+global-agent@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/global-agent/-/global-agent-3.0.0.tgz#ae7cd31bd3583b93c5a16437a1afe27cc33a1ab6"
+  integrity sha512-PT6XReJ+D07JvGoxQMkT6qji/jVNfX/h364XHZOWeRzy64sSFr+xJ5OX7LI3b4MPQzdL4H8Y8M0xzPpsVMwA8Q==
   dependencies:
     boolean "^3.0.1"
-    core-js "^3.6.5"
     es6-error "^4.1.1"
     matcher "^3.0.0"
     roarr "^2.15.3"
@@ -6791,15 +6767,6 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-rc-util@^5.9.4:
-  version "5.14.0"
-  resolved "https://registry.nlark.com/rc-util/download/rc-util-5.14.0.tgz#52c650e27570c2c47f7936c7d32eaec5212492a8"
-  integrity sha1-UsZQ4nVwwsR/eTbH0y6uxSEkkqg=
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    react-is "^16.12.0"
-    shallowequal "^1.1.0"
-
 rc@^1.2.8:
   version "1.2.8"
   resolved "https://registry.nlark.com/rc/download/rc-1.2.8.tgz?cache=0&sync_timestamp=1628478870081&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frc%2Fdownload%2Frc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
@@ -6809,11 +6776,6 @@ rc@^1.2.8:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
-
-react-is@^16.12.0:
-  version "16.13.1"
-  resolved "https://registry.npmmirror.com/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
-  integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
 read-config-file@6.2.0:
   version "6.2.0"
@@ -7343,11 +7305,6 @@ shallow-equal@^1.0.0:
   version "1.2.1"
   resolved "https://registry.npm.taobao.org/shallow-equal/download/shallow-equal-1.2.1.tgz#4c16abfa56043aa20d050324efa68940b0da79da"
   integrity sha1-TBar+lYEOqINBQMk76aJQLDaedo=
-
-shallowequal@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/shallowequal/download/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
-  integrity sha1-GI1SHelbkIdAT9TctosT3wrk5/g=
 
 shebang-command@^1.2.0:
   version "1.2.0"
